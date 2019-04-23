@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><!--LinearLayout布局分割线图片-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/gray_D9D8DB" />
+    <size android:height="0.5dp" />
+</shape>

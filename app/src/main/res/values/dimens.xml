@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edu_10">10dp</dimen>
+    <dimen name="edu_12">12dp</dimen>
+    <dimen name="edu_14">14dp</dimen>
+    <dimen name="edu_15">15dp</dimen>
+    <dimen name="edu_16">16dp</dimen>
+    <dimen name="edu_18">18dp</dimen>
+    <dimen name="edu_20">20dp</dimen>
+    <dimen name="edu_45">45sp</dimen>
+
+    <dimen name="textSize_12">12sp</dimen>
+    <dimen name="textSize_14">14sp</dimen>
+    <dimen name="textSize_17">17sp</dimen>
+    <dimen name="textSize_18">18sp</dimen>
+    <dimen name="textSize_19">19sp</dimen>
+</resources>

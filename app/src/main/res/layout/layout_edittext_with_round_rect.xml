@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/edit_number"
+        style="@style/EditTextStyle"
+        android:layout_gravity="center_vertical"
+        android:drawableLeft="@drawable/ic_user"
+        android:hint="@string/login_account_hint"
+        android:inputType="phone"
+        android:maxLength="11"/>
+
+    <TextView
+        android:id="@+id/tv_get_code"
+        android:layout_width="96dp"
+        android:layout_height="32dp"
+        android:enabled="false"
+        android:layout_gravity="center_vertical|right"
+        android:background="@drawable/selector_login_btn_get_code"
+        android:gravity="center"
+        android:text="@string/login_get_code"
+        android:textColor="@color/selector_login_text_color"
+        android:textSize="@dimen/textSize_14"/>
+</FrameLayout>

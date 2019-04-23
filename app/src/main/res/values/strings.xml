@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">教育平台</string>
+
+
+    <!-- 登录模块 -->
+    <string name="login">登录</string>
+    <string name="forget_pwd">忘记密码</string>
+    <string name="login_by_verify_code">短信验证码登录</string>
+    <string name="login_account_hint">请输入手机号码</string>
+    <string name="login_password_hint">请输入密码</string>
+    <string name="login_get_code">获取验证码</string>
+    <string name="input_verification_code">请输入验证码</string>
+    <string name="login_by_account_pwd">账号密码登录</string>
+    <string name="next">下一步</string>
+    <string name="enter_edu_training">进入教育培训</string>
+
+    <string name="error_unkown">未知错误</string>
+    <string name="error_http">网络连接错误</string>
+    <string name="cancel">取消</string>
+    <string name="determine">确定</string>
+    <string name="prompt">提示</string>
+</resources>

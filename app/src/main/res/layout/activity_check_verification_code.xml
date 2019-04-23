@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dashang.education.module.login.CheckVerificationCodeActivity">
+
+    <include layout="@layout/include_title_bar_layout"/>
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="54dp"
+        android:text="验证码已发送到手机："
+        android:textColor="@color/text_color_normal"
+        android:textSize="16sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/gray_cccccc"/>
+
+    <com.dashang.education.ui.widget.EditTextWithRoundRect
+        android:id="@+id/ed_verify_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="13dp"/>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        style="@style/bigBtnStyle"
+        android:text="@string/next"/>
+</LinearLayout>

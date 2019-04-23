@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.dashang.education.ui.widget.CircleImageView
+        android:id="@+id/code_portrait"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="94dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/headportrait"/>
+
+    <com.dashang.education.ui.widget.EditTextWithRoundRect
+        android:id="@+id/ed_get_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="73dp"/>
+
+    <EditText
+        android:id="@+id/ed_verification_code"
+        style="@style/EditTextStyle"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/ic_password"
+        android:hint="@string/input_verification_code"
+        android:inputType="number"
+        android:maxLength="@integer/verification_code_length"
+        />
+
+    <Button
+        android:id="@+id/btn_login_by_code"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        style="@style/bigBtnStyle"
+        android:text="@string/login"/>
+
+    <TextView
+        android:id="@+id/tv_account_login"
+        style="@style/generalTextViewStyle"
+        android:layout_gravity="right"
+        android:layout_marginRight="35dp"
+        android:padding="5dp"
+        android:text="@string/login_by_account_pwd"/>
+</LinearLayout>

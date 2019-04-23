@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selector_ripple_copy"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_double_button_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/edu_12"
+        android:layout_marginTop="@dimen/edu_20"
+        android:gravity="center"
+        android:paddingLeft="@dimen/edu_12"
+        android:paddingRight="@dimen/edu_12"
+        android:text="title"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/textSize_18" />
+
+    <TextView
+        android:id="@+id/dialog_double_button_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/edu_15"
+        android:paddingLeft="10.5dp"
+        android:paddingRight="10.5dp"
+        android:paddingTop="@dimen/edu_10"
+        android:text="content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textSize_14" />
+    <!-- <android.support.v4.widget.Space
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/sun_1"
+         android:background="@color/gray_ffe4e4e4"/>-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/gray_D9D8DB" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edu_45"
+        android:divider="@drawable/linearlayout_divider_drawable"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+        <TextView
+            android:id="@+id/dialog_double_button_cancel"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/blue_ff0076ff"
+            android:textSize="@dimen/textSize_17" />
+        <!--<android.support.v4.widget.Space
+            android:layout_width="@dimen/sun_1"
+            android:layout_height="match_parent"
+            android:background="@color/gray_ffe4e4e4"/>-->
+        <!--<View-->
+        <!--android:background="@color/gray_D9D8DB"-->
+        <!--android:layout_width="@dimen/sun_1"-->
+        <!--android:layout_height="match_parent" />-->
+        <TextView
+            android:id="@+id/dialog_double_button_determine"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/determine"
+            android:textColor="@color/blue_ff0076ff"
+            android:textSize="@dimen/textSize_17" />
+
+    </LinearLayout>
+</LinearLayout>

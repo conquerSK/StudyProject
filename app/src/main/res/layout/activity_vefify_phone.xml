@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title_bar_layout"/>
+
+    <com.dashang.education.ui.widget.EditTextWithRoundRect
+        android:id="@+id/ed_verify_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/ed_verification_code"
+        style="@style/EditTextStyle"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/ic_password"
+        android:hint="@string/input_verification_code"
+        android:inputType="number"
+        android:maxLength="@integer/verification_code_length"
+        />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="45dp"
+        style="@style/bigBtnStyle"
+        android:text="@string/next"/>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title_bar_layout"/>
+
+    <com.dashang.education.ui.widget.PasswordEditText
+        android:id="@+id/et_reset_pwd"
+        style="@style/EditTextStyle"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:drawableLeft="@drawable/ic_password"
+        android:hint="@string/login_password_hint"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:maxLength="12"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="13dp"
+        android:text="请输入8-12位字符，区分大小写"
+        android:textColor="@color/gray_cccccc"
+        android:textSize="@dimen/textSize_14"/>
+
+    <Button
+        style="@style/bigBtnStyle"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="39dp"
+        android:text="@string/enter_edu_training"/>
+</LinearLayout>
